@@ -1,4 +1,14 @@
 body {
-    background: #222222;
-    color: #eeeeee;
+    background: #222;
+    color: #eee;
+    max-width: 800px;
+    line-height: 1.35em;
+    font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.fixme::before { content: "FIXME: "; }
+.todo::before { content: "TODO: "; }
+.fixme, .todo {
+    background: #400;
+    border: 1px solid #a00;
 }
