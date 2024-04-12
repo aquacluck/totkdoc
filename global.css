@@ -6,6 +6,9 @@ body {
     font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+:link { color: #66f; /* adjust #0000EE */ }
+:visited { color: #84c; /* adjust #551A8B */ }
+
 .fixme::before { content: "FIXME: "; }
 .todo::before { content: "TODO: "; }
 .fixme, .todo {
