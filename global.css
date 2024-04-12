@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 body {
     background: #222;
     color: #eee;
@@ -14,4 +16,17 @@ body {
 .fixme, .todo {
     background: #400;
     border: 1px solid #a00;
+}
+
+.noob-notice::before {
+    content: "🔰 Noob Notice";
+    display: inline-block;
+    margin: 1em 0 0 1em;
+    font-weight: bold;
+}
+.noob-notice {
+    background: #303630;
+    border: 1px solid #434b43;
+    color: #fff8d8;
+    margin-bottom: 2em;
 }
